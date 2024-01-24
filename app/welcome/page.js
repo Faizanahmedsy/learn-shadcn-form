@@ -16,6 +16,8 @@ import { Label } from "@/components/ui/label";
 import { Input } from "@/components/ui/input";
 import { setUserName } from "@/lib/toolkit/slices/username";
 
+//This project is work in progress 
+
 const Welcome = () => {
   const dispatch = useDispatch();
   const { username } = useSelector((state) => state);
